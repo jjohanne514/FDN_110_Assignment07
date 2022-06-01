@@ -18,7 +18,7 @@ Here is an example of my menu options:
         (s) Save Task list to file
         (x) Exit Program
 
-![Image1]{https://github.com/jjohanne514/FDN_110_Assignment07/blob/main/docs/Picture1.png"test"}
+![Image1]{https://github.com/jjohanne514/FDN_110_Assignment07/docs/Picture1.png}
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jjohanne514/FDN_110_Assignment07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
