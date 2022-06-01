@@ -18,13 +18,15 @@ Here is an example of my menu options:
         (s) Save Task list to file
         (x) Exit Program
 
-![Image1](/docs/Picture1.png "Pic1")
-## Welcome to GitHub Pages
+![Figure1](/docs/Figure1.png "Figure1 - Assignment07 Code Listing")
 
-You can use the [editor on GitHub](https://github.com/jjohanne514/FDN_110_Assignment07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Similar to Assignment06, the Python code was broken out into three sections:
+
+### Section one: A function class for Data Processing was defined that included two functions:
+
+![Figure2](/docs/Figure1.png "Figure 2- Processor Class with four functions")
 
 
-### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
