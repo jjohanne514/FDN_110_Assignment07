@@ -9,12 +9,20 @@ Module07 Assignment07
 ## Introduction
 In Assignment07 we were asked to apply our knowledge of pickling data and basic error exception handling. For this assignment, I used assignment06 as a template and stuck with menu processing logic to manage a Task List.  I changed the selections from a numeric choice to an alpha character and included an option to display the current Task list.
 
+Here is an example of my menu options:
+        Menu of Options
+        (l) Load Task list from file
+        (a) Add a new Task
+        (i) Display current Task list
+        (r) Remove an existing Task
+        (s) Save Task list to file
+        (x) Exit Program
 
+![Image1]{https://github.com/jjohanne514/FDN_110_Assignment07/blob/main/docs/Picture1.png"test"}
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jjohanne514/FDN_110_Assignment07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
