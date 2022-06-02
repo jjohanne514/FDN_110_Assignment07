@@ -88,7 +88,7 @@ Here is the output after choosing to remove a Task:
 (Note – the Task list is automatically re-displayed after removing an item)    
 
 ![Figure11](Figure11.png "Figure 11 - Pycharm Output for Removing a Task")
-  
+
 This is the output after selecting the menu option to save the Task list to disk:  
 
 ![Figure12](Figure12.png "Figure 12 - Pycharm Output to Save Task list to disk")
