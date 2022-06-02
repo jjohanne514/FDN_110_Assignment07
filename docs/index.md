@@ -29,21 +29,21 @@ Similar to Assignment06, the Python code was broken out into three sections:
 
 ### Section one: A function class for Data Processing was defined that included two functions:
 
-![Figure2](/docs/Figure2.png "Figure 2- Processor Class with four functions")
+![Figure2](Figure2.png "Figure 2- Processor Class with four functions")
 
 
 ### Section two: File Processing with two functions for reading and writing data.
 
 Both the read_file and write_file functions used pickling.
 
-![Figure3](/docs/Figure3.png "Figure 3- File Processing Functions")
+![Figure3](Figure3.png "Figure 3- File Processing Functions")
 
 
 ### Section three: I/O Processing:
 
 This section includes functions to print the menu, retrieve a user choice, display the current task list and to prompt the user for an task to remove.
 
-![Figure4](/docs/Figure4.png "Figure 4 - Main Script section for Menu Processing Logic")
+![Figure4](Figure4.png "Figure 4 - Main Script section for Menu Processing Logic")
 
 
 ### Section Four: Main Script – code segment to check for TaskList.txt file size and existence.
@@ -57,7 +57,7 @@ Or if the file exists but is empty, that is noted as well.  Exception handling i
 
 This section handles all of the menu options.  I have highlighted code that uses exception handling to verify the Task Priority/Rank is input as an integer.
 
-![Figure6](/docs/Figure6.png "Figure 6  -Main Loop to process menu selections")
+![Figure6](Figure6.png "Figure 6  -Main Loop to process menu selections")
 
 ## Running the script.
 ### From the PyCharm application:
@@ -66,37 +66,37 @@ Here is the Initial Display after pressing the run button
 
 Note – the initial contents of the TaskList.txt file is displayed.
 
-![Figure7](/docs/Figure7.png "Figure 7 - Pycharm output for Initial Display")
+![Figure7](Figure7.png "Figure 7 - Pycharm output for Initial Display")
 
 Here is output after selecting the option to add a new Task:
 
-![Figure8](/docs/Figure8.png "Figure 8 - Pycharm Output to Add Task")
+![Figure8](Figure8.png "Figure 8 - Pycharm Output to Add Task")
 
 Here is the output after selecting the menu choice to display the current task list:
 
-![Figure9](/docs/Figure9.png "Figure 9 - Pycharm output to Display Current Task list")
+![Figure9](Figure9.png "Figure 9 - Pycharm output to Display Current Task list")
  
 
 Here is the output after choosing to remove a Task: 
 
 (Note – the Task list is automatically re-displayed after removing an item)
 
-![Figure10](/docs/Figure10.png "Figure 10 - Pycharm Output for Removing a Task")
+![Figure10](Figure10.png "Figure 10 - Pycharm Output for Removing a Task")
  
  
 This is the output after selecting the menu option to save the Task list to disk:
 
-![Figure11](/docs/Figure11.png "Figure 11 - Pycharm Output to Save Task list to disk")
+![Figure11](Figure11.png "Figure 11 - Pycharm Output to Save Task list to disk")
  
 
 Here I am showing the contents of TaskList.txt after saving to disk:
 
-![Figure12](/docs/Figure12.png "Figure 12- Contents of TaskList.txt after Menu Option 4 selected")
+![Figure12](Figure12.png "Figure 12- Contents of TaskList.txt after Menu Option 4 selected")
 
  
 Finally, here is PyCharm output after choosing to Exit:
 
-![Figure13](/docs/Figure13.png "Figure 13 - PyCharm output when exiting program")
+![Figure13](Figure13.png "Figure 13 - PyCharm output when exiting program")
  
 
 ## Summary
