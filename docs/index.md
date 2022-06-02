@@ -6,10 +6,11 @@ IT FDN Programming 110
 Module07 Assignment07  
 
 ## Introduction
-In Assignment07 we were asked to apply our knowledge of pickling data and basic error exception handling. For this assignment, I used assignment06 as a template and stuck with menu processing logic to manage a Task List.  I changed the selections from a numeric choice to an alpha character and included an option to display the current Task list.
+In Assignment07 we were asked to apply our knowledge of pickling data and basic error exception handling. For this assignment, I used assignment06 as a template and continued to use menu processing logic to manage a Task List.  I changed the selections from a numeric choice to an alpha character and included an option to display the current Task list.
 
-Here is an example of my menu options:
-Menu of Options
+Here is an example of my menu options:  
+
+Menu of Options  
 
 (l) Load Task list from file  
 (a) Add a new Task  
@@ -18,39 +19,42 @@ Menu of Options
 (s) Save Task list to file  
 (x) Exit Program  
 
-
+## Building the script.  
+Here is my code listing from NotePad++.  
 
 ![Figure1](Figure1.png "Figure1 - Assignment07 Code Listing")
 
-Similar to Assignment06, the Python code was broken out into three sections:
+## Similar to Assignment06, the Python code was broken out into three sections:
 
-### Section one: A function class for Data Processing was defined that included two functions:
+### Section one: A function class for Data Processing was defined that included two functions:  
 
 ![Figure2](Figure2.png "Figure 2- Processor Class with four functions")
 
 
 ### Section two: File Processing with two functions for reading and writing data.
 
-Both the read_file and write_file functions used pickling.
+Both the read_file and write_file functions used pickling.  
 
 ![Figure3](Figure3.png "Figure 3- File Processing Functions")
 
 
 ### Section three: I/O Processing:
 
-This section includes functions to print the menu, retrieve a user choice, display the current task list and to prompt the user for an task to remove.
+This section includes functions to print the menu, retrieve a user choice, display the current task list and to prompt the user for a task to remove.  
 
 ![Figure4](Figure4.png "Figure 4 - Main Script section for Menu Processing Logic")
 
 
-### Section Four: Main Script – code segment to check for TaskList.txt file size and existence.
+### Section Four: Main Script  
+
+#### Main script code segment to check for TaskList.txt file size and existence.
 
 This section starts with checking for the existence of the file, and will display a message if the file does not exist.
 Or if the file exists but is empty, that is noted as well.  Exception handling is used to check for file size and file existence.
 
 ![Figure5](/docs/Figure5.png "Figure 5 - Exception Handling to check file size and existence")
 
-### Section Five: Main Script – Main Loop code block to handle menu choices:
+####  Main Script primary code block to handle menu choices:
 
 This section handles all of the menu options.  I have highlighted code that uses exception handling to verify the Task Priority/Rank is input as an integer.
 
@@ -61,37 +65,36 @@ This section handles all of the menu options.  I have highlighted code that uses
 
 Here is the Initial Display after pressing the run button
 
-Note – the initial contents of the TaskList.txt file is displayed.
+Note – the initial contents of the TaskList.txt file is displayed.  
 
 ![Figure7](Figure7.png "Figure 7 - Pycharm output for Initial Display")
 
-Here is output after selecting the option to add a new Task:
+Here is output after selecting the option to add a new Task:  
 
 ![Figure8](Figure8.png "Figure 8 - Pycharm Output to Add Task")
 
-Here is the output after selecting the menu choice to display the current task list:
+Here is the output after selecting the menu choice to display the current task list:  
 
 ![Figure9](Figure9.png "Figure 9 - Pycharm output to Display Current Task list")
  
 
 Here is the output after choosing to remove a Task: 
 
-(Note – the Task list is automatically re-displayed after removing an item)
+(Note – the Task list is automatically re-displayed after removing an item)  
 
 ![Figure10](Figure10.png "Figure 10 - Pycharm Output for Removing a Task")
- 
- 
-This is the output after selecting the menu option to save the Task list to disk:
+  
+This is the output after selecting the menu option to save the Task list to disk:  
 
 ![Figure11](Figure11.png "Figure 11 - Pycharm Output to Save Task list to disk")
  
 
-Here I am showing the contents of TaskList.txt after saving to disk:
+Here I am showing the contents of TaskList.txt after saving to disk:  
 
 ![Figure12](Figure12.png "Figure 12- Contents of TaskList.txt after Menu Option 4 selected")
 
  
-Finally, here is PyCharm output after choosing to Exit:
+Finally, here is PyCharm output after choosing to Exit:  
 
 ![Figure13](Figure13.png "Figure 13 - PyCharm output when exiting program")
  
