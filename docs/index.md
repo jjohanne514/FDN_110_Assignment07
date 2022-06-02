@@ -20,9 +20,14 @@ Menu of Options
 (x) Exit Program  
 
 ## Building the script.  
-Code Listing for Lines 1 – 156 (contains all class and function definitions):
+Code Listing Lines 1 – 92 (Data Processing and File Processing)  
 
-![Figure1](Figure1.png "Figure 1 - Code Listing for Classes & Functions")
+![Listing1](Listing1.png "Listing1  - Code Listing lines 1 - 92")
+
+Code Listing Lines 93 – 156 (Data Processing and File Processing)  
+
+![Listing1a](Listing1a.png "Listing1  - Code Listing lines 93 - 156")
+
 
 Code Listing for Lines 157 -2227  (contains code for main section):
 
