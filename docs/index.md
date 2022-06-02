@@ -23,13 +23,13 @@ Menu of Options
 (x) Exit Program
 
 
-![Figure1](/docs/Figure1.png "Figure1 - Assignment07 Code Listing")
+![Figure1](../docs/Figure1.png "Figure1 - Assignment07 Code Listing")
 
 Similar to Assignment06, the Python code was broken out into three sections:
 
 ### Section one: A function class for Data Processing was defined that included two functions:
 
-![Figure2](main/docs/Figure2.png "Figure 2- Processor Class with four functions")
+![Figure2](/docs/Figure2.png "Figure 2- Processor Class with four functions")
 
 
 ### Section two: File Processing with two functions for reading and writing data.
