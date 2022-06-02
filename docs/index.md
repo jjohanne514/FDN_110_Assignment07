@@ -29,7 +29,7 @@ Code Listing for Lines 157 -2227  (contains code for main section):
 ![Figure2](Figure2.png "Figure 2 - Code Listing for Main Section")
 
 
-## the Python code was broken out into four sections:
+## The Python code was broken out into four sections:
 
 ### Section one: A function class for Data Processing was defined that included two functions:  
 
@@ -52,14 +52,14 @@ This section includes functions to print the menu, retrieve a user choice, displ
 
 ### Section Four: Main Script  
 
-#### Main script code segment to check for TaskList.txt file size and existence.
+#### Main script code segment to check for TaskList.txt file size and existence.  
 
 This section starts with checking for the existence of the file, and will display a message if the file does not exist.
 Or if the file exists but is empty, that is noted as well.  Exception handling is used to check for file size and file existence.
 
 ![Figure6](/docs/Figure6.png "Figure 6 - Exception Handling to check file size and existence")
 
-####  Main Script primary code block to handle menu choices:
+####  Main Script primary code block to handle menu choices:  
 
 This section handles all of the menu options.  I have highlighted code that uses exception handling to verify the Task Priority/Rank is input as an integer.
 
@@ -85,7 +85,7 @@ Here is the output after selecting the menu choice to display the current task l
 
 Here is the output after choosing to remove a Task: 
 
-(Note – the Task list is automatically re-displayed after removing an item)  
+(Note – the Task list is automatically re-displayed after removing an item)    
 
 ![Figure11](Figure11.png "Figure 11 - Pycharm Output for Removing a Task")
   
