@@ -23,7 +23,7 @@ Menu of Options
 (x) Exit Program
 
 
-![Figure1](../docs/Figure1.png "Figure1 - Assignment07 Code Listing")
+![Figure1](Figure1.png "Figure1 - Assignment07 Code Listing")
 
 Similar to Assignment06, the Python code was broken out into three sections:
 
