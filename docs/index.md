@@ -1,13 +1,9 @@
 # FDN Programming 110 Assignment 07
 
-Jason Johanneck
-
-2022-May-31
-
-IT FDN Programming 110
-
-Module07 Assignment07
-
+Jason Johanneck  
+2022-May-31  
+IT FDN Programming 110  
+Module07 Assignment07  
 
 ## Introduction
 In Assignment07 we were asked to apply our knowledge of pickling data and basic error exception handling. For this assignment, I used assignment06 as a template and stuck with menu processing logic to manage a Task List.  I changed the selections from a numeric choice to an alpha character and included an option to display the current Task list.
@@ -15,16 +11,13 @@ In Assignment07 we were asked to apply our knowledge of pickling data and basic 
 Here is an example of my menu options:
 Menu of Options
 
-(l) Load Task list from file
+(l) Load Task list from file  
+(a) Add a new Task  
+(i) Display current Task list  
+(r) Remove an existing Task  
+(s) Save Task list to file  
+(x) Exit Program  
 
-(a) Add a new Task
-(i) Display current Task list
-
-(r) Remove an existing Task
-
-(s) Save Task list to file
-
-(x) Exit Program
 
 
 ![Figure1](Figure1.png "Figure1 - Assignment07 Code Listing")
