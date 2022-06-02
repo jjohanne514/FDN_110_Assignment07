@@ -1,5 +1,4 @@
-#Title
-FDN Programming 110 Assignment 07
+# FDN Programming 110 Assignment 07
 
 Jason Johanneck
 2022-May-31
@@ -95,7 +94,6 @@ Here I am showing the contents of TaskList.txt after saving to disk:
 ![Figure12](/docs/Figure12.png "Figure 12- Contents of TaskList.txt after Menu Option 4 selected")
 
  
-
 Finally, here is PyCharm output after choosing to Exit:
 
 ![Figure13](/docs/Figure13.png "Figure 13 - PyCharm output when exiting program")
