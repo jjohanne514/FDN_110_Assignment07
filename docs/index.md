@@ -98,27 +98,9 @@ Here I am showing the contents of TaskList.txt after saving to disk:
 
 Finally, here is PyCharm output after choosing to Exit:
 
-Figure 13 - PyCharm output when exiting program
+![Figure13](/docs/Figure13.png "Figure 13 - PyCharm output when exiting program")
  
 
+## Summary
 
-
-
-```markdown
-
-Syntax highlighted code block
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-1. Numbered
-2. List
-**Bold** and _Italic_ and `Code` text
-[Link](url) and ![Image](src)
-
-```
-
+In this assignment we learned how to read and write binary data to a file as well as how to do perform basic exception handling.  We also covered additional tools for formatting GitHub web pages.
