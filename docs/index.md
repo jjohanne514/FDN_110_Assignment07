@@ -24,7 +24,30 @@ Similar to Assignment06, the Python code was broken out into three sections:
 
 ### Section one: A function class for Data Processing was defined that included two functions:
 
-![Figure2](/docs/Figure1.png "Figure 2- Processor Class with four functions")
+![Figure2](/docs/Figure2.png "Figure 2- Processor Class with four functions")
+
+
+### Section two: File Processing with two functions for reading and writing data.
+
+Both the read_file and write_file functions used pickling.
+
+![Figure3](/docs/Figure3.png "Figure 3- File Processing Functions")
+
+
+### Section three: I/O Processing:
+
+This section includes functions to print the menu, retrieve a user choice, display the current task list and to prompt the user for an task to remove.
+
+![Figure4](/docs/Figure4.png "Figure 4 - Main Script section for Menu Processing Logic")
+
+
+### Section Four: Main Script – code segment to check for TaskList.txt file size and existence.
+
+This section starts with checking for the existence of the file, and will display a message if the file does not exist.
+Or if the file exists but is empty, that is noted as well.  Exception handling is used to check for file size and file existence.
+
+![Figure5](/docs/Figure5.png "Figure 5 - Exception Handling to check file size and existence")
+
 
 
 
